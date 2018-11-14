@@ -1,6 +1,7 @@
 package utils;
 
 import entity.Node;
+import entity.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,5 +34,27 @@ public class Init {
         node3.setNodes(list3);
         node4.setNodes(list4);
         return node;
+    }
+
+    /**
+     * init treenode
+     *     3
+     *    / \
+     *   9  20
+     *     /  \
+     *    15   7
+     * @return
+     */
+    public static TreeNode initTreeNode(){
+        TreeNode treeNode = new TreeNode(3);
+        TreeNode treeNode1 = new TreeNode(9);
+        TreeNode treeNode2 = new TreeNode(20);
+        TreeNode treeNode3 = new TreeNode(15);
+        TreeNode treeNode4 = new TreeNode(7);
+        treeNode.left = treeNode1;
+        treeNode.right = treeNode2;
+        treeNode2.left = treeNode3;
+        treeNode2.right = treeNode4;
+        return treeNode;
     }
 }
