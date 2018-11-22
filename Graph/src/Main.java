@@ -4,12 +4,11 @@ import entity.Node;
 import entity.TreeNode;
 import search.BFS;
 import search.DFS;
+import solution.SolveQueens;
+import solution.SolveQueensII;
 import utils.Init;
 
-import java.util.ArrayDeque;
-import java.util.HashSet;
-import java.util.Queue;
-import java.util.Set;
+import java.util.*;
 
 public class Main {
 
@@ -32,9 +31,19 @@ public class Main {
         int maxDepth = MaxDepth.maxDepth(root);
         System.out.println("maxDepth = "+maxDepth);*/
 
-        //Test: MinDepth
+/*        //Test: MinDepth
         TreeNode root = Init.initTreeNode();
         int minDepth = MinDepth.minDepth(root);
-        System.out.println("minDepth = "+minDepth);
+        System.out.println("minDepth = "+minDepth);*/
+
+/*        //Test: SolveQueens
+        SolveQueens solveQueens = new SolveQueens();
+        solveQueens.solveQueens(4);
+        solveQueens.show();*/
+
+        //Test: SolveQueensII
+        SolveQueensII solveQueensII = new SolveQueensII();
+        int num = solveQueensII.solveQueens(8);
+        System.out.println(num);
     }
 }
