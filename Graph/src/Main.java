@@ -6,6 +6,7 @@ import search.BFS;
 import search.DFS;
 import solution.SolveQueens;
 import solution.SolveQueensII;
+import solution.Sudoku;
 import utils.Init;
 
 import java.util.*;
@@ -41,9 +42,20 @@ public class Main {
         solveQueens.solveQueens(4);
         solveQueens.show();*/
 
-        //Test: SolveQueensII
+/*        //Test: SolveQueensII
         SolveQueensII solveQueensII = new SolveQueensII();
         int num = solveQueensII.solveQueens(8);
-        System.out.println(num);
+        System.out.println(num);*/
+
+/*        //Test: isValidSudoku
+        Sudoku sudoku = new Sudoku();
+        char[][] board = Init.initSudoku3();
+        boolean isValid = sudoku.dfs(board);
+        System.out.println("isValid:"+isValid);*/
+
+        //Test: isValidSudoku
+        Sudoku sudoku = new Sudoku();
+        char[][] board = Init.initSudoku();
+        sudoku.solveSudoku(board);
     }
 }
