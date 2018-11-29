@@ -1,3 +1,5 @@
+import trie.Trie;
+
 import java.util.Random;
 
 public class Main {
@@ -61,9 +63,22 @@ public class Main {
         TreeNode lowestCommonAncestor = LowestCommonAncestor.findLowestCommonAncestorBST(root, root.left, root.right);
         System.out.println("lowestCommonAncestor : "+lowestCommonAncestor.val);*/
 
-        //Test: findLowestCommonAncestorBT
+/*        //Test: findLowestCommonAncestorBT
         TreeNode root = initBT();
         TreeNode lowestCommonAncestorBT = LowestCommonAncestor.findLowestCommonAncestorBT(root, root.left, root.left.right);
-        System.out.println("lowestCommonAncestorBT : "+ lowestCommonAncestorBT.val);
+        System.out.println("lowestCommonAncestorBT : "+ lowestCommonAncestorBT.val);*/
+
+        //Test: Trie
+        Trie trie = new Trie();
+        trie.insert("apple");
+        boolean search = trie.search("apple");
+        System.out.println("search apple : " +search);
+        boolean startsWith = trie.startsWith("apple");
+        System.out.println("startWith apple : "+startsWith);
+        boolean search1 = trie.search("app");
+        System.out.println("search app : "+search1);
+        boolean startsWith1 = trie.startsWith("app");
+        System.out.println("startWith app : "+startsWith1);
+
     }
 }
