@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7175a9b4-ce1a-4c8d-8b97-9bd436eb36e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/trie/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trie/TrieNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graph/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Graph/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/LowestCommonAncestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/LowestCommonAncestor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="7175a9b4-ce1a-4c8d-8b97-9bd436eb36e8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +13,7 @@
     <session id="858622981">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.34" value="1" />
@@ -67,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IsValidBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="510">
               <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
             </state>
           </provider>
@@ -94,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/trie/TrieNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="627">
@@ -166,7 +157,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -255,12 +246,12 @@
       <workItem from="1541081442714" duration="2482000" />
       <workItem from="1541244980820" duration="1001000" />
       <workItem from="1543414102699" duration="1806000" />
-      <workItem from="1543498638480" duration="260000" />
+      <workItem from="1543498638480" duration="474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9573000" />
+    <option name="totallyTimeSpent" value="9787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -313,13 +304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IsValidBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LowestCommonAncestor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1634">
@@ -366,6 +350,13 @@
             <element signature="e#632#633#0" expanded="true" />
             <element signature="e#672#673#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IsValidBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
         </state>
       </provider>
     </entry>
