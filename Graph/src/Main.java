@@ -5,6 +5,7 @@ import entity.TreeNode;
 import search.BFS;
 import search.DFS;
 import solution.SolveQueens;
+import solution.SolveQueensByBits;
 import solution.SolveQueensII;
 import solution.Sudoku;
 import utils.Init;
@@ -53,9 +54,13 @@ public class Main {
         boolean isValid = sudoku.dfs(board);
         System.out.println("isValid:"+isValid);*/
 
-        //Test: isValidSudoku
+/*        //Test: isValidSudoku
         Sudoku sudoku = new Sudoku();
         char[][] board = Init.initSudoku();
-        sudoku.solveSudoku(board);
+        sudoku.solveSudoku(board);*/
+
+        //Test: SolveQueensByBits
+        SolveQueensByBits solveQueensByBits = new SolveQueensByBits();
+        solveQueensByBits.solveQueensByBits(4);
     }
 }
